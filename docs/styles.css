@@ -1,0 +1,184 @@
+
+body{
+    margin: 0;
+}
+p {
+    display: block;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0;
+    margin-block-end: 0.15em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+nav{
+    display: flex;
+    flex-flow: column;
+    align-content: space-between;
+    width: 100%;
+    color:white;
+    background: black;
+    position: fixed;
+    top: 0;
+    font-size: 1.5vw;
+}
+#info{
+    width: 80%;
+}
+.info{
+    margin-bottom: 20px;
+    font-size: 1.5vw;
+    text-align: justify;
+}
+h1{
+    text-align: center;
+}
+#cont-input-superiores{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+#cont-btn-superiores{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    margin-bottom: 15px;
+}
+.botones{
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 18px;
+    /* font-style: none; */
+    color: white;
+    background-color: red;
+    border-radius: 15px;
+    /* border: 3px double white; */
+}
+.botones:hover{
+    opacity: 0.6;
+    text-decoration: none;
+}
+#btn-buscar{
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 18px;
+    /* font-style: italic; */
+    color: white;
+    background-color: blue;
+    border-radius: 15px;
+    /* border: 3px double #006505; */
+}
+#btn-buscar:hover{
+    opacity: 0.6;
+    text-decoration: none;
+}
+#input-buscar{
+    width: 170px;
+    height: 25px;
+    margin-right: 10px;
+    font-size: 17px;
+    border-radius: 10px;
+}
+body{
+    background: gray;
+}
+
+#marco-cards{
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+}
+.marco-card{
+    text-align: end;
+    background: black;
+    margin: 8px;
+    color: white;
+    width: 35%;
+    border: 2px solid black;
+    padding: 16px;
+    border-radius: 47px;
+}
+.img-content{
+    display: block;
+}
+.char-img{
+    display: flex;
+    width: 119px;
+    height: auto;
+}
+#btn-cerrar{
+    color: white;
+    background: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+.cont-desc{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+.descripcion{
+    text-align: justify;
+    display: block;
+    width: 60%;
+    font-size: 1.5vw;
+    padding-left: 10px;
+}
+@media (max-width: 700px) {
+    .descripcion{
+        text-align: justify;
+        display: block;
+        width: 78%;
+        font-size: 2.7vw;
+        padding-left: 10px;
+    }
+    nav{
+        display: flex;
+        flex-flow: column;
+        align-content: space-between;
+        width: 100%;
+        color:white;
+        background: black;
+        position: fixed;
+        top: 0;
+        font-size: 4vw;
+    }
+    #info{
+        width: 80%;
+        font-size: 4vw;
+    }
+    .info{
+        margin-bottom: 20px;
+        font-size: 3vw;
+        text-align: justify;
+}
+p {
+    display: block;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    }
+}
