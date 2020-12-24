@@ -1,5 +1,8 @@
 
 body{
+    background-image: url(img/BreakingBad.jpg);
+    background-attachment: fixed;
+    
     margin: 0;
 }
 p {
@@ -31,11 +34,17 @@ nav{
 }
 #info{
     width: 80%;
+    color: white;
+    background: black;
+    margin-top: 27px;
+    padding: 30px;
+    border-radius: 30px;
 }
 .info{
     margin-bottom: 20px;
     font-size: 1.5vw;
     text-align: justify;
+    
 }
 h1{
     text-align: center;
@@ -98,15 +107,14 @@ h1{
     font-size: 17px;
     border-radius: 10px;
 }
-body{
-    background: gray;
-}
-
 #marco-cards{
-    margin-top: 120px;
+    margin-top: 105px;
     display: flex;
     justify-content: center;
     flex-flow: wrap;
+    background-image: url(img/BreakingBad.jpg);
+    background-attachment: fixed;
+    background-size: cover;
 }
 .marco-card{
     text-align: end;
@@ -167,7 +175,11 @@ body{
     }
     #info{
         width: 80%;
-        font-size: 4vw;
+        color: white;
+        background: black;
+        margin-top: 27px;
+        padding: 30px;
+        border-radius: 30px;
     }
     .info{
         margin-bottom: 20px;
@@ -180,5 +192,17 @@ p {
     margin-block-end: 0;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    }
+    #marco-cards{
+        background: black;
+        color: white;
+        margin-top: 105px;
+        display: flex;
+        justify-content: center;
+        flex-flow: wrap;
+        background-image: url(img/BreakingBad.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
     }
 }
